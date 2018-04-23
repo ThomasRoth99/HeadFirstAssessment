@@ -1,5 +1,5 @@
 public class EersteKlasReiziger extends Mens {
-    public EersteKlasReiziger(String name) {
-        super(name, "Eersteklas");
+    public EersteKlasReiziger(String name, String kaartje) {
+        super(name, kaartje);
     }
 }

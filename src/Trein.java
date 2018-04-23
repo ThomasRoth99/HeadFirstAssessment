@@ -28,7 +28,7 @@ public class Trein {
         String key = naam.getName();
         Naam value = naam;
         this.stoelen.put(key, value);
-        showInfo(naam, " is ingestapt.");
+        showInfo(naam, " is ingestapt " + naam.getKaartje());
     }
 
 
