@@ -18,6 +18,11 @@ public class Trein {
         instappen(zwartrijder1);
     }
 
+    public void instappen(Naam reiziger7, Naam reiziger8) {
+        instappen(reiziger7);
+        instappen(reiziger8);
+    }
+
 
     public void instappen(Naam naam) {
         String key = naam.getName();
