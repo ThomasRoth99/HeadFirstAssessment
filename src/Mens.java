@@ -1,7 +1,7 @@
 public abstract class Mens implements Naam {
 
         private String name;
-        private String kaartje;
+        public String kaartje;
 
         public Mens(String name, String kaartje) {
             this.name = name;

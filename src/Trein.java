@@ -31,6 +31,13 @@ public class Trein {
         showInfo(naam, " is ingestapt " + naam.getKaartje());
     }
 
+    public void controleren(String kaartje) {
+        if (kaartje == null){
+            
+        }
+
+    }
+
 
     private int getCount() {
         return stoelen.size();
