@@ -10,4 +10,4 @@ public abstract class Mens implements Naam {
             return this.name;
         }
     }
-}
+
